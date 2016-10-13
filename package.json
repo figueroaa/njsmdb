@@ -1,0 +1,17 @@
+{
+  "name":"@provide/nodeandmongodb",
+  "version":"0.0.0",
+  "description":"work with the intro course to nodejs and mongodb",
+  "main":"main.js",
+  "dependencies":{
+    "express":"4.14.0",
+    "consolidate":"0.14.1",
+    "mongodb":"2.2.10",
+    "nunjucks":"~2.5",
+    "body-parser":"~1.15.2"
+  },
+  "author":"Alfonso Figueroa Rojas",
+  "license":"MIT",
+  "readme":"Example of saving via a form",
+  "repository":"not yet assigned"
+}
