@@ -1,0 +1,17 @@
+<head>
+  <style>
+   body { font-family:'Pro Sans','Arial',sans-serif;}
+   h1{
+     color:green;
+   }
+  </style>
+</head>
+<body>
+<h1>Películas</h1>
+<a href="./new">Insertar</a>
+{% for movie in movies %}
+<li><a href="http://www.imdb.com/title/{{ movie.imdb }}">{{movie.title}}, {{movie.year}}</a></li>
+{% else %}
+<h2>Nigún acierto</h2>
+{% endfor %}
+</body>

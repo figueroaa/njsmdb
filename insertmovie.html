@@ -1,0 +1,19 @@
+<head>
+  <style>
+   body { font-family:'Pro Sans','Arial',sans-serif;}
+   h1{
+     color:green;
+   }
+  </style>
+</head>
+<body>
+  <form action="/insert" method="POST">
+    <table>
+      <header><h1>Insertar Película</h1></header>
+      <tr><td><label>título</label><td><input name="title" type="text"></input>
+      <tr><td><label>año</label><td><input name="year" type="text"></input>
+      <tr><td><label>imdb ref</label><td><input name="imdb" type="text"></input>
+    </table>
+    <input type="submit" value="Insertar"><a  href="./..">Cancelar</a>
+  </form>
+</body>
