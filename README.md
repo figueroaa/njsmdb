@@ -1,8 +1,8 @@
 # movies.js
   version     : 0.0.0 
   author      : Alfonso Figueroa Rojas
-  description : Trabajo práctico de la primera semana del curso de MongoDB para node.js es un editor de películas, muestra la lista de  
-  películas, usa la bd video, y la collection movies, que tiene los campos ["title","year","value"]. 
+  description : Trabajo práctico de la primera semana del curso de MongoDB para node.js es un catálogo de películas, 
+                usa la bd video, y la collection movies, que tiene los campos ["title","year","value"]. 
 
 # contenido
   ./package.json, es el fichero de dependencias del node.js
