@@ -1,0 +1,58 @@
+  body{
+    font-family:Open Sans,Arial,sans-serif;
+    color:#33674b;
+    font-size:1.1em;
+    font-weight:400;
+    border:none;
+    margin:0px;
+  }
+  h1{ color:green;}
+  .pvdtoppanel{
+    background-color:#567788;
+    color:#fefefe;
+    width:100%;
+    height:30px;
+    padding: 8px;
+    display:block;
+    font-size:1.3em;
+    font-weight:200;
+    text-align:justify;
+    vertical-align: middle;
+  }
+  .pvdleftpanel{
+    display:inline-block;
+    height: 100%;
+    min-width:150px;
+    text-align:left;
+    vertical-align: top;
+  }
+  .pvdrightpanel{
+    border-left-style:solid;
+    border-left-width: 1px;
+    border-left-color: #567788;
+    display:inline-block;
+    height: 100%;
+    min-width:150px;
+    text-align:left;
+    vertical-align: top;
+    padding:2px;
+  }
+  a:link, a:visited{
+    text-decoration:none;
+    color:inherit;
+  }
+  a:hover, a:focus{
+    text-decoration:underline;
+    color:#041c29;
+  }
+  a.pvdtop:link, a.pvdtop:visited{
+    font-size: 0.8em;
+    font-weight:200;
+    text-decoration:none;
+    color:inherit;
+  }
+  a.pvdtop:hover, a.pvdtop:focus{
+    text-decoration:underline;
+    font-weight:300;
+    color:#ffffff;
+  }
