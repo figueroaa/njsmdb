@@ -215,5 +215,5 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
-# node_js
+# nodejs
  node_modules/
