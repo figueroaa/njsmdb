@@ -1,0 +1,2 @@
+# excluir los modulos compilados
+node_modules/*
